@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  background:url(bgi72.jfif)no-repeat;
+  background-size: 191px 263px;
+  background-position: 100px 268px;
+}
+
+header{
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+
+header .navigation a:not(:last-child){
+  margin-right: 30px;
+}
+
+header .navigation a:hover{
+  background: #fff;
+}
+
+.content{
+  max-width: 650px;
+  margin: 60px 100px;
+}
+
+.content .info h2{
+  color: #1f1f25;
+  background: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 90px;
+  margin-bottom: 30px;
+  width: 160%;
+}
+
+.content .info h2 a{
+  color: #1f1f25;
+  background: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 90px;
+  margin-bottom: 30px;
+  width: 200%;
+}
+
+.content .info p{
+    width: 150%;
+    color: #757575;
+    position: relative;
+    left: 300px;
+    margin-top: 25px;
+    margin-bottom: 30px;  
+}
+
+.content .info p a{
+    width: 150%;
+    color: #757575;
+    position: relative;
+    left: 300px;
+    margin-top: 25px;
+    margin-bottom: 30px;  
+}
+
+.navigation .navigation-btn{
+ color: #4fc3f7;
+font-size: 17px;
+  background: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 9px 36px;
+  border-radius: 500px;
+  transition: all .4s ease-in-out;
+background-size: 152% 100%;
+border: 2px solid #000000;
+    position: relative;
+}
+
+.navigation .navigation-btn:hover{
+ border-color: #FFFFFF;
+background-color: #045de9;
+background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+color: #FFFFFF; 
+}
